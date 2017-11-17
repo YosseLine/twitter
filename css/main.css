@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(../assets/imgs/fondo.jpg);
+  /* Para dejar la imagen de fondo centrada, vertical y
+  horizontalmente */
+  background-position: center center;
+  /* Para que la imagen de fondo no se repita */
+  background-repeat: no-repeat;
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-attachment: fixed;
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-size: cover;
+}
+header{
+  width: 100%;
+  background-color: rgb(247,187,195);
+}
+header h1{
+  font-family: 'Indie Flower', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding: 5px;
+}
+#container-left{
+  font-family: 'Indie Flower', cursive;
+  margin-top: 10px;
+  margin-left: 60px;
+  display: inline-block;
+  background-color: rgba(247,187,195,0.5);
+  border-radius: 5px;
+}
+#container-left h2{
+  margin: 40px 300px 10px 20px;
+}
+#container-left p{
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 90px 20px;
+}
+#container-posts{
+  width:
+}
