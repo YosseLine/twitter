@@ -26,11 +26,15 @@ header h1{
   text-align: center;
   padding: 5px;
 }
+section{
+  overflow: auto;
+}
 #container-left{
   font-family: 'Indie Flower', cursive;
   margin-top: 10px;
   margin-left: 60px;
   display: inline-block;
+  float: left;
   background-color: rgba(247,187,195,0.5);
   border-radius: 5px;
 }
@@ -43,5 +47,62 @@ header h1{
   margin: 0 0 90px 20px;
 }
 #container-posts{
-  width:
+  margin-top: 10px;
+  margin-left: 40px;
+  width: 900px;
+  float: left;
+  background-color: rgba(247,187,195,0.5);
+  border-radius: 5px;
+  overflow: auto;
+}
+#container-text{
+  width: 850px;
+  margin: 10px 20px;
+  border: none;
+  border-bottom: 2px solid pink;
+  background-color: rgba(247,187,195,0.5);
+  padding: 10px;
+}
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(placeholder)
+}
+#button-tweet{
+  text-align: center;
+  padding: 10px 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  background-color: rgb(247,187,195);
+  border: none;
+  border-radius: 5px;
+}
+#accountant{
+  margin-top: 40px;
+  margin-right: 20px;
+  font-size: 30px;
+  font-weight: 600;
+  float: right;
+}
+.tweet{
+  background-color: rgba(247,187,195,0.5);
+  padding: 30px;
+  font-weight: 600;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+  width: 88%;
+  margin-left: 60px;
+}
+.hour{
+  color: blue;
+  padding-top: 10px;
+}
+.red{
+  color: red;
+}
+.purple{
+  color: purple;
+}
+.blue{
+  color: blue;
 }
